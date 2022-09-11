@@ -18,7 +18,7 @@ diceImg2.setAttribute("src", `images/dice${randomNumber2}.png`);
 
 // Decide who won the game
 if (randomNumber1 > randomNumber2) {
-  heading.textContent = "Player 1 wins 🚩";
+  heading.textContent = "🚩Player 1 wins";
 } else if (randomNumber1 < randomNumber2) {
   heading.textContent = "Player 2 wins 🚩";
 } else if (randomNumber1 === randomNumber2) {
